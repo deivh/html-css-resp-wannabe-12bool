@@ -1,0 +1,20 @@
+body{
+  font-size: 15px;
+}
+
+header img {
+  height: 200px;
+  width: auto;
+  margin: 20px 25%;;
+}
+
+header div {
+  text-align: center;
+}
+ @media all and (min-width: 768px) and (max-width: 991px) {
+
+   [class*="col-"]{
+     float: none;
+   }
+
+ }
