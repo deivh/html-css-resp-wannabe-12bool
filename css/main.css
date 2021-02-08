@@ -11,6 +11,10 @@ img {
 }
 /*  regole header */
 
+header h2 {
+  font-size: 40px;
+}
+
 header {
   margin-top: 100px;
 }
