@@ -6,6 +6,8 @@ body{
 
 img {
     margin: 20px 0;
+    height: 200px;
+    width: auto;
 }
 /*  regole header */
 
@@ -13,10 +15,6 @@ header {
   margin-top: 100px;
 }
 
-header img {
-  height: 200px;
-  width: auto;
-}
 /*  regole ricorrenti di pagina */
 
 header div , main div , footer div {
@@ -27,19 +25,24 @@ h2 , p , h3 {
   padding: 20px 50px;
 }
 
+main .box img{
+  border-radius: 50%;
+  background-color: #428bca;
+}
+
 /* regole versione tablet */
 
  @media all and (min-width: 768px) and (max-width: 991px) {
 
    body {
-     font-size: 1.2rem;
+     font-size: 1.3rem;
    }
 
     [class*="col-"]{
      float: none;
    }
 
-   main section:first-of-type img{
+   img{
      height: 280px;
      width: auto;
    }
@@ -54,12 +57,15 @@ h2 , p , h3 {
 
  @media all and (max-width: 768px) {
    body {
-     font-size: 1.5rem;
+     font-size: 1.6rem;
+   }
+
+   img {
+     height: 200px;
+     width: auto;
    }
 
    main .box img{
-     height: 200px;
-     width: auto;
      border-radius: 50%;
      background-color: #428bca;
    }
